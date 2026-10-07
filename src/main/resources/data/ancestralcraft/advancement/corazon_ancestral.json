@@ -1,0 +1,30 @@
+{
+  "parent": "ancestralcraft:root",
+  "display": {
+    "icon": {
+      "id": "ancestralcraft:corazon_ancestral"
+    },
+    "title": {
+      "text": "El Poder Ancestral"
+    },
+    "description": {
+      "text": "Consume un Corazón Ancestral"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "consumir_corazon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ancestralcraft:corazon_ancestral"
+          ]
+        }
+      }
+    }
+  }
+}

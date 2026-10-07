@@ -1,0 +1,28 @@
+{
+  "parent": "ancestralcraft:root",
+  "display": {
+    "icon": {
+      "id": "ancestralcraft:bolsa_ancestral"
+    },
+    "title": {
+      "text": "La Bolsa Ancestral"
+    },
+    "description": {
+      "text": "Crea una Bolsa Ancestral"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crear_bolsa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ancestralcraft:bolsa_ancestral"
+        ]
+      }
+    }
+  }
+}

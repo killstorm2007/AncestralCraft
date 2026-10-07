@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ancestralcraft:armadura_ancestral"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "ancestralcraft:armadura_ancestral"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ancestralcraft:armadura_ancestral"
+      }
+    ]
+  }
+}

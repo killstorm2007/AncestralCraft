@@ -1,0 +1,14 @@
+
+  {
+    "item.ancestralcraft.bolsa_ancestral": "Ancestral Bundle",
+    "item.ancestralcraft.corazon_ancestral" : "Ancestral Heart",
+    "item.ancestralcraft.piedra_ancestral": "Ancestral Stone",
+    "item.ancestralcraft.lingote_ancestral": "Ancestral Stone Ingot",
+    "item.ancestralcraft.casco_ancestral": "Ancestral Helmet",
+    "item.ancestralcraft.pechera_ancestral": "Ancestral Chestplate",
+    "item.ancestralcraft.pantalones_ancestrales": "Ancestral Leggings",
+    "item.ancestralcraft.botas_ancestrales": "Ancestral Boots",
+    "item.ancestralcraft.pico_ancestral" : "Ancestral Pickaxe",
+    "creativetab.ancestralcraft.objetos_ancestrales" : "Ancestral Items",
+    "block.ancestralcraft.bloque_ancestral" : "Ancestral Block"
+  }

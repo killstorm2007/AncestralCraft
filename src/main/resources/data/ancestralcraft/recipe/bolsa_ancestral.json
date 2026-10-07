@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NDN",
+    "DBD",
+    "NDN"
+  ],
+  "key": {
+    "N": "minecraft:netherite_scrap",
+    "D": "minecraft:diamond",
+    "B": "minecraft:bundle"
+  },
+  "result": {
+    "id": "ancestralcraft:bolsa_ancestral",
+    "count": 1
+  }
+}

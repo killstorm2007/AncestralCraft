@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": "ancestralcraft:lingote_ancestral"
+  },
+  "result": {
+    "id": "ancestralcraft:bloque_ancestral",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+// 26.3	-999999999-01-01T00:00:00	AncestralCraft/Tags for minecraft:item
+650a2f2433c6d3d3f4333c800c74737e4120d33d data/ancestralcraft/tags/item/ancestral_repair.json
+a76c222bd0e0970b267ad1d6c3f6a635703266de data/minecraft/tags/item/chest_armor.json
+1041cf7477eb52854c2c9e5cfe350d89937e1dd9 data/minecraft/tags/item/foot_armor.json
+d3bfb9aa1864669c021b3ee5c6be1847567353bd data/minecraft/tags/item/head_armor.json
+461a7dcf53707e86cda7b6bbe689d6c124e66c5e data/minecraft/tags/item/leg_armor.json
+ca779e3d7c6276fbe92aaea47b056c759cfa83e4 data/minecraft/tags/item/pickaxes.json

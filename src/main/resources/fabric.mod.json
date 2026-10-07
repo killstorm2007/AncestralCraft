@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ancestralcraft",
+	"version": "${version}",
+	"name": "AncestralCraft",
+	"description": "Agrega una mejora a la armadura de Netherite, un mejor Saco y Corazones que aumentan la vida permanentemente",
+	"authors": [
+		"killstorm2007"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/killstorm2007/AncestralCraft"
+	},
+	"license": "MIT-License",
+	"icon": "assets/ancestralcraft/textures/item/bolsa_ancestral.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ancestralcraft.AncestralCraft"
+		],
+		"fabric-datagen": [
+			"com.ancestralcraft.AncestralCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"ancestralcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

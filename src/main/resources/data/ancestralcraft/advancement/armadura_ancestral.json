@@ -1,0 +1,31 @@
+{
+  "parent": "ancestralcraft:root",
+  "display": {
+    "icon": {
+      "id": "ancestralcraft:pechera_ancestral"
+    },
+    "title": {
+      "text": "Armadura Ancestral"
+    },
+    "description": {
+      "text": "Crea la Armadura Ancestral"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crear_bolsa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ancestralcraft:casco_ancestral",
+          "ancestralcraft:pechera_ancestral",
+          "ancestralcraft:pantalones_ancestrales",
+          "ancestralcraft:botas_ancestrales"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "DND",
+    "PDP"
+  ],
+  "key": {
+    "P": "ancestralcraft:piedra_ancestral",
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "ancestralcraft:lingote_ancestral",
+    "count": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parent": "ancestralcraft:bolsa_ancestral",
+
+  "display": {
+    "icon": {
+      "id": "ancestralcraft:corazon_ancestral"
+    },
+    "title": {
+      "text": "Legado Ancestral"
+    },
+    "description": {
+      "text": "Crea la Bolsa Ancestral, Crea la Armadura Ancestral y consume un Corazón Ancestral"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "bolsa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ancestralcraft:bolsa_ancestral"
+        ]
+      }
+    },
+
+    "corazon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "bolsa-ancestral:corazon_ancestral"
+          ]
+        }
+      }
+    },
+    "armadura": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions" : {
+        "recipes" :
+           [
+            "bolsa-ancestral:casco_ancestral",
+            "bolsa-ancestral:pechera_ancestral",
+            "bolsa-ancestral:pantalones_ancestrales",
+            "bolsa-ancestral:botas_ancestrales"
+          ]
+        }
+      }
+    },
+
+  "requirements": [
+    [
+      "bolsa"
+    ],
+    [
+      "corazon"
+    ],
+    [
+      "armadura"
+    ]
+  ],
+
+  "rewards": {
+    "experience": 100
+  }
+}

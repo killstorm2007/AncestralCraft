@@ -1,0 +1,28 @@
+{
+  "parent": "ancestralcraft:root",
+  "display": {
+    "icon": {
+      "id": "ancestralcraft:pico_ancestral"
+    },
+    "title": {
+      "text": "El Pico Ancestral"
+    },
+    "description": {
+      "text": "Crea el Pico Ancestral"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crear_bolsa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ancestralcraft:pico_ancestral"
+        ]
+      }
+    }
+  }
+}
